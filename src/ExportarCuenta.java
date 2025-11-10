@@ -1,4 +1,3 @@
-// Clase: ExportadorCuenta.java
 // Exporta un objeto Cuenta a CSV, XML y JSON.
 
 import java.io.BufferedWriter;
@@ -11,11 +10,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-/**
- * Utilidad para exportar una cuenta a diferentes formatos de texto.
- * Provee métodos estáticos para crear archivos CSV, XML y JSON legibles.
- */
-public class ExportarMovimientos {
+public class ExportarCuenta {
 
     // Exporta la cuenta a CSV (separador ';'), incluye movimientos y resumen.
     public static void exportarCSV(Cuenta cuenta, Path path) throws IOException {
